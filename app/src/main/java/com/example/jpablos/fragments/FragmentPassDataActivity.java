@@ -110,7 +110,7 @@ public class FragmentPassDataActivity extends AppCompatActivity {
                 txtCadena.setText(getIntent().getStringExtra("cadena"));
             }
             if (getIntent().hasExtra("numero")) {
-                Toast.makeText(this, "Cadena desde Fragment2: " + String.valueOf(getIntent().getIntExtra("numero", 0)), Toast.LENGTH_SHORT).show();
+                Toast.makeText(this, "Cadena desde Fragment2 git: " + String.valueOf(getIntent().getIntExtra("numero", 0)), Toast.LENGTH_SHORT).show();
                 txtNumero.setText(String.valueOf(getIntent().getIntExtra("numero", 0)));
             }
         }
