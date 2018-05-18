@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/button_fragment_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="10dp"
+                android:text="Fragmentos Embebidos en la Activity" />
+
+            <Button
+                android:id="@+id/button_fragment_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/button_fragment_1"
+                android:layout_marginTop="10dp"
+                android:text="Fragmentos creados con programacion" />
+
+            <Button
+                android:id="@+id/button_fragment_3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/button_fragment_2"
+                android:layout_marginTop="10dp"
+                android:text="Fragmentos with bottom navigation" />
+
+            <Button
+                android:id="@+id/button_fragment_4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/button_fragment_3"
+                android:layout_marginTop="10dp"
+                android:text="Fragmentos with bottom navigation library" />
+
+            <Button
+                android:id="@+id/button_fragment_5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/button_fragment_4"
+                android:layout_marginTop="10dp"
+                android:text="Pass Data Activity - Fragment, Fragment - Fragment, Fragment - Activity" />
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

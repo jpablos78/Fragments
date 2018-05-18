@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".FragmentoProgramacionActivity">
+
+    <Button
+        android:id="@+id/button_ativity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/button_backgroud_color"
+        android:text="Boton de Activity"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/button_add_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@color/button_backgroud_color"
+        android:text="Add Fragment(Usa add)"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/button_first_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@color/button_backgroud_color"
+        android:text="First Fragment(Usa replace)"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/button_second_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@color/button_backgroud_color"
+        android:text="Second Fragment(Usa replace)"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+    
+    <FrameLayout
+        android:id="@+id/frame_layout_add"
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:background="@color/green"
+        android:layout_marginTop="10dp">
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/frame_layout_replace"
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:background="@color/white"
+        android:layout_marginTop="10dp">
+
+    </FrameLayout>
+
+</LinearLayout>

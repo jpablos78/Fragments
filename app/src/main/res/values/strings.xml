@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Fragments</string>
+    <string name="fragmentos_embebidos">Fragmentos Embebidos</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="fragmentos_programacion">Fragmentos Creados con Programacion</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_profile">Profile</string>
+    <string name="title_activity_fragmento_con_botton_navigation2">
+        FragmentoConBottonNavigation2Activity
+    </string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="fragmentos_pass_data">Pasar Datos entre Fragmentos</string>
+</resources>

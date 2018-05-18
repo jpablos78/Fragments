@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#9DD"
+    android:orientation="vertical"
+    tools:context=".FragmentPassDataActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="En Activty" />
+
+        <EditText
+            android:id="@+id/editText_cadena"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Ingrese una cadena" />
+
+        <EditText
+            android:id="@+id/editText_numero"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Ingrese un numero"
+            android:inputType="number" />
+
+        <Button
+            android:id="@+id/btn_intent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pasar Datos a Framento 1 con Intent" />
+
+        <Button
+            android:id="@+id/btn_bundle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pasar Datos a Framento 2 con Bundle" />
+
+        <Button
+            android:id="@+id/btn_parcelable"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pasar Objeto a Framento 1 con Parcelable" />
+
+        <Button
+            android:id="@+id/btn_serializable"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pasar Objeto a Framento 2 con Serializable" />
+
+        <FrameLayout
+            android:id="@+id/frame_layout_fragment_1"
+            android:layout_width="match_parent"
+            android:layout_height="160dp"
+            android:layout_marginTop="5dp"></FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/frame_layout_fragment_2"
+            android:layout_width="match_parent"
+            android:layout_height="160dp"
+            android:layout_marginTop="5dp"></FrameLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
